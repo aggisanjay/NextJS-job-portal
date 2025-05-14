@@ -1,36 +1,48 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 💼 Job Portal
 
-## Getting Started
+A full-stack **Job Portal** built with **Next.js**, **MongoDB**, and **Clerk Authentication**. Designed for two primary user roles — **Candidates** and **Recruiters**, this application enables job seekers to find and apply for jobs while allowing recruiters to post and manage job listings.
 
-First, run the development server:
+---
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## 🚀 Live Demo
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+👉 https://next-js-job-portal-murex.vercel.app/
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## 👥 User Roles & Features
 
-## Learn More
+### 🧑‍💼 Candidates:
+- Create and edit profile
+- Upload resumes
+- Browse and filter job listings
+- Apply for jobs directly
 
-To learn more about Next.js, take a look at the following resources:
+### 🧑‍💻 Recruiters:
+- Create and manage job listings
+- View and manage job applications
+- Browse candidate profiles
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## ✨ Highlight Features
 
-## Deploy on Vercel
+- 🔐 **Authentication & Authorization**: Secure sign-up/login via **Clerk**
+- 🧭 **Role-Based Dashboard**: Users access features specific to their role
+- 🗂 **Membership System**: Premium recruiters can post more jobs; free-tier users have limits
+- 🔍 **Job Filtering**: Search and filter jobs by title, location, and type
+- 💾 **MongoDB Integration**: Stores all job listings, user profiles, and applications
+- ⚡ **Server Actions**: Handles backend logic seamlessly without traditional API routes
+- 🧑‍🎓 **Responsive UI**: Clean, mobile-friendly user experience
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+---
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## 🧰 Tech Stack
+
+| Technology     | Description                                  |
+|----------------|----------------------------------------------|
+| Next.js        | Full-stack React framework (App Router)      |
+| MongoDB        | NoSQL database for user/job data             |
+| Clerk Auth     | Authentication and user session management   |
+| Tailwind CSS   | Utility-first CSS for fast styling           |
+| React Hook Form| Forms and validations                        |
